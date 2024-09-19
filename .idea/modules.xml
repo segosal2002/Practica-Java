@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/colecciones/HashList/HashList.iml" filepath="$PROJECT_DIR$/colecciones/HashList/HashList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practica Java.iml" filepath="$PROJECT_DIR$/Practica Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/colecciones/colecciones.iml" filepath="$PROJECT_DIR$/colecciones/colecciones.iml" />
     </modules>
