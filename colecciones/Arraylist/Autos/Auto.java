@@ -1,3 +1,5 @@
+package Autos;
+
 public class Auto{
     private String Marca;
     private String Modelo;
@@ -42,6 +44,6 @@ public class Auto{
     }
 
     public String toString(){
-        return "Auto( " + " Marca = " + this.Marca + " Modelo = " + this.Modelo + " Año = " + this.Anio + " Precio de venta: " + this.precioVenta; 
+        return "Autos.Auto( " + " Marca = " + this.Marca + " Modelo = " + this.Modelo + " Año = " + this.Anio + " Precio de venta: " + this.precioVenta;
     }
 }
