@@ -25,6 +25,12 @@ public class PeliculaPremiada {
         this.premioObtenido = premioObtenido;
     }
 
-
+    @Override
+    public String toString() {
+        return "PeliculaPremiada{" +
+                "titulo='" + titulo + '\'' +
+                ", premioObtenido='" + premioObtenido + '\'' +
+                '}';
+    }
 
 }
