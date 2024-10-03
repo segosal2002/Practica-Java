@@ -13,6 +13,6 @@ public class UsoListaPeliculasPremiadas {
         lista.agregarPelicula(new PeliculaPremiada("Shrek", "Oscar"));
         lista.agregarPelicula(new PeliculaPremiada("Relatos Salvajes", "Oscar"));
 
-        ListIterator it = new lista.listIterator();
+        ListIterator <PeliculaPremiada> it = new lista.listIterator();
     }
 }

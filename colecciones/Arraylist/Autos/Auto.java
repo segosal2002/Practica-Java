@@ -1,49 +1,63 @@
-package Autos;
+package colecciones.Arraylist.Autos;
 
 public class Auto{
     private String Marca;
     private String Modelo;
-    private int Anio;
-    private double precioVenta;
+    private Integer Anio;
+    private Double PrecioVenta;
 
-    public Auto(){
-
+    public Auto() {
     }
 
-    public Auto(String Marca, String Modelo, int Anio, double precioVenta){
-        this.Marca = Marca;
-        this.Modelo = Modelo;
-        this.Anio = Anio;
-        this.precioVenta = precioVenta;
+    public Auto(String marca, String modelo, Integer anio, Double precioVenta) {
+        this.Marca = marca;
+        this.Modelo = modelo;
+        this.Anio = anio;
+        this.PrecioVenta = precioVenta;
     }
 
-    public String getMarca(){
+    public String getMarca() {
         return this.Marca;
     }
-    public String getModelo(){
+
+    public void setMarca(String marca) {
+        this.Marca = marca;
+    }
+
+    public String getModelo() {
         return this.Modelo;
     }
-    public int getAnio(){
+
+    public void setModelo(String modelo) {
+        this.Modelo = modelo;
+    }
+
+    public Integer getAnio() {
         return this.Anio;
     }
-    public double getPrecioVenta(){
-        return this.precioVenta;
+
+    public void setAnio(Integer anio) {
+        this.Anio = anio;
     }
 
-    public void setMarca(String Marca){
-        this.Marca = Marca;
-    }
-    public void setModelo(String Modelo){
-        this.Modelo = Modelo;
-    }
-    public void setAnio(int Anio){
-        this.Anio = Anio;
-    }
-    public void setPrecioVenta(double precioVenta){
-        this.precioVenta = precioVenta;
+    public Double getPrecioVenta() {
+        return this.PrecioVenta;
     }
 
-    public String toString(){
-        return "Autos.Auto( " + " Marca = " + this.Marca + " Modelo = " + this.Modelo + " Año = " + this.Anio + " Precio de venta: " + this.precioVenta;
+    public void setPrecioVenta(Double precioVenta) {
+        this.PrecioVenta = precioVenta;
     }
+
+    @Override
+    public String toString() {
+        return "Auto{" +
+                "Marca='" + Marca + '\'' +
+                ", Modelo='" + Modelo + '\'' +
+                ", Anio='" + Anio + '\'' +
+                ", PrecioVenta=" + PrecioVenta +
+                '}';
+    }
+
+
+
 }
